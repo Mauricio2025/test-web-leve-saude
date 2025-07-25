@@ -1,2 +1,4 @@
 # test-web-leve-saude
-Dashboard React + Vite para administração de feedbacks – FeedbackHub Leve Saude
+
+Dashboard React + Vite, integrado ao Firebase, para administração de feedbacks do FeedbackHub.
+
