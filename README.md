@@ -5,7 +5,7 @@ Aplicação web desenvolvida com **React + TypeScript + Vite + Firebase**, para 
 
 ## 🔗 Link do Deploy
 
-> ✅ Disponível em: [https://test-web-leve-saude-three.vercel.app](https://test-web-leve-saude-three.vercel.app)
+> ✅ Disponível em: https://test-web-leve-saude-three.vercel.app
 
 ---
 
