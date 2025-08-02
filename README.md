@@ -78,5 +78,3 @@ Este projeto está licenciado sob a [MIT License](https://opensource.org/license
    npm run build
    ```
 
-```
-```
