@@ -1,108 +1,132 @@
 ```md
+![Leve Saúde Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Health_Mark_Logo.svg/2048px-Health_Mark_Logo.svg.png){width=120px align="center"}
+<img width="165" height="87" alt="34ce9776-eb58-42e5-90d5-d3079d8b7dbc" src="https://github.com/user-attachments/assets/c452a7c1-242c-4bd2-a263-90dd27f68bd5" />
+
 # FeedbackHub - Painel Web | Leve Saúde 💬🧑‍⚕️
 
-Aplicação web desenvolvida com **React + TypeScript + Vite + Firebase**, para administração e visualização de feedbacks enviados por usuários através do aplicativo mobile da Leve Saúde.
+**Sistema web para administração de feedbacks enviados por usuários do app mobile da Leve Saúde.**
+
+**Desenvolvido com:** React · TypeScript · Vite · Firebase
+
+---
 
 ## 🔗 Link do Deploy
 
-> ✅ Disponível em: https://test-web-leve-saude-three.vercel.app
+[🔗 Acessar Deploy Web](https://test-web-leve-saude-three.vercel.app)
 
 ---
 
 ## ✨ Funcionalidades
 
 - 🔐 **Autenticação Firebase** (email e senha)
-- 📋 **Dashboard de feedbacks** com:
+- 📋 **Dashboard de feedbacks**:
   - Nome do usuário
   - Nota (1 a 5 estrelas)
   - Comentário
   - Data e hora de envio
-- 🔎 Filtro de **busca por nome ou comentário**
-- 🔄 Ordenação por **data** ou **nota**
-- 🎨 **Estilização com Tailwind CSS + Flowbite**
-- 🧭 Navegação com **rotas protegidas**
+- 🔎 **Busca** por nome ou comentário
+- 🔄 **Ordenação** por data ou nota
+- 🎨 **Estilização** com Tailwind CSS + Flowbite
+- 🛡️ **Rotas protegidas** para usuários autenticados
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- [React + Vite](https://vitejs.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Flowbite](https://flowbite.com/)
-- [Firebase Auth & Firestore](https://firebase.google.com/)
-- [React Router DOM](https://reactrouter.com/)
-- [React Icons](https://react-icons.github.io/react-icons)
+| Ferramenta              | Descrição                          |
+|:-----------------------:|:----------------------------------:|
+| React + Vite            | Framework SPA moderno             |
+| TypeScript              | Tipagem estática no JavaScript     |
+| Firebase (Auth + Firestore) | Autenticação e Banco NoSQL     |
+| Tailwind CSS + Flowbite | Estilização responsiva             |
+| React Router DOM        | Roteamento de páginas              |
+| React Icons             | Biblioteca de ícones               |
 
 ---
 
-## 📁 Estrutura de diretórios
+## 📁 Estrutura de Diretórios
 
 ```
 
 src/
-├── assets/             # Imagens e ícones
-├── pages/              # Telas (Login, Dashboard)
-├── services/           # Integração com Firebase
-├── App.tsx             # Rotas protegidas
-├── main.tsx            # Entrada da aplicação
-└── index.css           # Estilos globais
+├─ assets/      # Logos e ícones
+├─ pages/       # Telas: Login e Dashboard
+├─ services/    # Configuração Firebase
+├─ App.tsx      # Definição de rotas
+├─ main.tsx     # Ponto de entrada
+└─ index.css    # Estilos globais Tailwind
 
 ````
 
 ---
 
-## ▶️ Como rodar o projeto localmente
+## ▶️ Como Rodar Localmente
 
-### 1. Clone o repositório
-```bash
+1. **Clone** o repositório
+
+   ```bash
 git clone https://github.com/seu-usuario/test-web-leve-saude.git
 cd test-web-leve-saude
 ````
 
-### 2. Instale as dependências
+2. **Instale** as dependências
 
-```bash
+   ```bash
+   ```
+
 npm install
-```
 
-### 3. Configure o Firebase
+````
 
-Crie um arquivo `src/services/firebase.ts` com sua configuração do Firebase (Auth + Firestore).
+3. **Configure** o Firebase
 
-### 4. Rode o projeto
+   Crie `src/services/firebase.ts` com suas credenciais:
 
-```bash
+   ```ts
+export const firebaseConfig = {
+  apiKey: "SUA_API_KEY",
+  authDomain: "SEU_AUTH_DOMAIN",
+  projectId: "SEU_PROJECT_ID",
+  storageBucket: "SEU_BUCKET",
+  messagingSenderId: "SEU_SENDER_ID",
+  appId: "SEU_APP_ID",
+};
+````
+
+4. **Inicie** o projeto
+
+   ```bash
+   ```
+
 npm run dev
-```
+
+````
 
 ---
 
-## 📦 Build para produção
+## 📦 Build para Produção
 
 ```bash
 npm run build
-```
+````
 
 ---
 
-## ✅ Requisitos atendidos (conforme desafio)
+## ✅ Requisitos Atendidos
 
 * [x] Autenticação Firebase
-* [x] Dashboard com listagem de feedbacks
-* [x] Busca e filtros
+* [x] Dashboard com listagem, busca e filtros
+* [x] Ordenação por data ou nota
 * [x] Estilização com Tailwind CSS + Flowbite
-* [x] Deploy com histórico de commits limpo e organizado
+* [x] Deploy público com commits organizados
 
 ---
 
-## 👨‍💻 Desenvolvido por
+## 👨‍💻 Desenvolvedor
 
 **Maurício Souza**
-[https://github.com/mauriciosouza-dev](https://github.com/mauriciosouza-dev)
-[https://jmscode.com.br](https://jmscode.com.br)
+GitHub: [https://github.com/mauriciosouza-dev](https://github.com/mauriciosouza-dev)
+Site: [https://jmscode.com.br](https://jmscode.com.br)
 
 ```
-
-Se você quiser, posso incluir automaticamente o link real do deploy assim que estiver pronto. Deseja isso?
 ```
