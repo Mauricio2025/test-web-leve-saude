@@ -1,5 +1,3 @@
-Claro! Aqui está o conteúdo completo do `README.md` pronto para você copiar e colar:
-
 ```md
 # FeedbackHub - Painel Web | Leve Saúde 💬🧑‍⚕️
 
@@ -7,7 +5,7 @@ Aplicação web desenvolvida com **React + TypeScript + Vite + Firebase**, para 
 
 ## 🔗 Link do Deploy
 
-> ✅ Disponível em: [https://feedbackhub-web.vercel.app](https://feedbackhub-web.vercel.app)
+> ✅ Disponível em: [https://test-web-leve-saude-three.vercel.app](https://test-web-leve-saude-three.vercel.app)
 
 ---
 
