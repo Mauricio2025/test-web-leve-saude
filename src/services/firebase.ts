@@ -4,7 +4,6 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAo6no8_I7cEKhNvCvbL54QnosDAlOLc7k",
   authDomain: "feedbackhub-leve-saude-550cc.firebaseapp.com",
   projectId: "feedbackhub-leve-saude-550cc",
   storageBucket: "feedbackhub-leve-saude-550cc.firebasestorage.app",
